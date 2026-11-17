@@ -1,0 +1,16 @@
+mod {
+    wizards.newContentElement.wizardItems.extra {
+        header = Kirchenplaner
+        elements {
+            axkirchenplaner_termine {
+                iconIdentifier = kirchenplaner
+                title = Kirchenplaner
+                description = www.kirchenplaner.de
+                tt_content_defValues {
+                    CType = axkirchenplaner_termine
+                }
+            }
+        }
+        show = *
+    }
+}

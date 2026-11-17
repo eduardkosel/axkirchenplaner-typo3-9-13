@@ -1,0 +1,10 @@
+<f:layout name="Default" />
+<f:section name="main">
+    <script>
+        window.kirchenplaner_config = window.kirchenplaner_config || [];
+        window.kirchenplaner_config[{uid}] = <f:format.raw>{configJson}</f:format.raw>;
+    </script>
+    <div class="tx_axkirchenplaner" ng-controller="kirchenPlanerCtrl" ng-init="init_uid({uid})">
+        <div ng-include="template"></div>
+    </div>
+</f:section>

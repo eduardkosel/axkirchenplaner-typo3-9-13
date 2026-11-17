@@ -1,0 +1,40 @@
+{
+    "name": "axist/axkirchenplaner",
+    "type": "typo3-cms-extension",
+    "description": "TYPO3 integration for the Kirchenplaner API",
+    "version": "2.0.3",
+    "keywords": [
+        "TYPO3",
+        "extension"
+    ],
+    "homepage": "https://axi.st",
+    "authors": [
+        {
+            "homepage": "https://axi.st",
+            "name": "aXist"
+        }
+    ],
+    "license": [
+        "GPL-2.0-or-later"
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "typo3/cms-backend": ">=9.0.0 <=13.9.9",
+        "typo3/cms-core": ">=9.0.0 <=13.9.9",
+        "typo3/cms-extbase": ">=9.0.0 <=13.9.9",
+        "typo3/cms-fluid": ">=9.0.0 <=13.9.9",
+        "typo3/cms-frontend": ">=9.0.0 <=13.9.9"
+    },
+    "suggest": {},
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Axist\\AxKirchenplaner\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "axkirchenplaner"
+        }
+    }
+}
